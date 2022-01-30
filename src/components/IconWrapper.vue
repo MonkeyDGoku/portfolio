@@ -1,7 +1,9 @@
 <template>
   <div class="icon-wrapper">
     <img class="icon-wrapper-img" :src="require(`@/assets/images/${imgsrc}`)" />
-    <div class="icon-wrapper-img-cover"></div>
+    <div class="icon-wrapper-img-cover">
+      <h6 class="icon-wrapper-img-txt"></h6>
+    </div>
   </div>
 </template>
 
@@ -12,6 +14,9 @@ export default {
     imgsrc: {
       type: String,
       require: true,
+    },
+    imgtxt: {
+      type: String,
     },
   },
   methods: {
@@ -47,6 +52,14 @@ export default {
 }
 
 .icon-wrapper-img-cover:hover {
-  background: rgba(101, 100, 98, 0.5);
+  background: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 5px 2px white;
+}
+
+.icon-wrapper-img-txt {
+  position: absolute;
+  color: white;
+  top: 75px;
+  left: 20px;
 }
 </style>

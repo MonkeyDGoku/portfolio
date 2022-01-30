@@ -26,7 +26,7 @@
         alt="road"
       />
 
-      <h2 id="text" :style="{ top: textStyle + 'px' }">Anup Mahato</h2>
+      <h2 class="text" :style="{ top: textStyle + 'px' }">Anup Mahato</h2>
     </section>
   </div>
 </template>
@@ -108,11 +108,14 @@ section img {
   pointer-events: none;
 }
 
-#text {
+.text {
   position: relative;
   color: #fff;
   font-size: 10em;
   z-index: 1;
+}
+.text-desc-detail {
+  font-size: 5em;
 }
 
 #road {
