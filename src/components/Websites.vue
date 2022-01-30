@@ -16,7 +16,7 @@
             </div>
             <img
               class="item__image"
-              src="..\assets\images\netflix-clone-screenshot.jpg"
+              :src="require('@/assets/images/netflix-clone-screenshot.jpg')"
               alt=""
             />
           </div>
@@ -32,7 +32,7 @@
             <div class="item__content">Airbnb clone app built on React.Js</div>
             <img
               class="item__image"
-              src="..\assets\images\airbnb-clone-screenshot.jpg"
+              :src="require('@/assets/images/airbnb-clone-screenshot.jpg')"
               alt=""
             />
           </div>
@@ -50,7 +50,7 @@
             </div>
             <img
               class="item__image"
-              src="..\assets\images\spotify-clone-screenshot.jpg"
+              :src="require('@/assets/images/spotify-clone-screenshot.jpg')"
               alt=""
             />
           </div>
@@ -61,6 +61,9 @@
 </template>
 <script>
 import { ExternalLinkIcon } from "@vue-hero-icons/outline";
+// import NetflixImage from "@/assets/images/netflix-clone-screenshot.jpg'";
+// import AirbnbImg from "@/assets/images/airbnb-clone-screenshot.jpg";
+// import SpotifyImg from "@/assets/images/spotify-clone-screenshot.jpg";
 export default {
   components: {
     ExternalLinkIcon,

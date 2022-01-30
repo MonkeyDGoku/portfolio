@@ -2,25 +2,25 @@
   <div class="app-main">
     <section>
       <img
-        src="../assets/images/bg.jpg"
+        :src="require('@/assets/images/bg.jpg')"
         id="bg"
         :style="{ top: bgStyle + 'px' }"
         alt="bg"
       />
       <img
-        src="../assets/images/moon.png"
+        :src="require('@/assets/images/moon.png')"
         id="moon"
         :style="{ left: moonStyle + 'px' }"
         alt="moon"
       />
       <img
-        src="../assets/images/mountain.png"
+        :src="require('@/assets/images/mountain.png')"
         id="mountain"
         :style="{ top: mountainStyle + 'px' }"
         alt="mountain"
       />
       <img
-        src="../assets/images/road.png"
+        :src="require('@/assets/images/road.png')"
         id="road"
         :style="{ top: roadStyle + 'px' }"
         alt="road"
