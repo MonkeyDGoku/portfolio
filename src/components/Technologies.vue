@@ -78,6 +78,7 @@
         </div>
         <div class="col-md-6 social-media">
           <video
+            class="container"
             muted=""
             loop=""
             playsinline=""
