@@ -77,9 +77,13 @@
           </div>
         </div>
         <div class="col-md-6 social-media">
-          <div class="social-media__blend">
-            <SocialMedia />
-          </div>
+          <video
+            muted=""
+            loop=""
+            playsinline=""
+            autoplay=""
+            src="https://cdn.dribbble.com/users/46302/videos/35863/ch1.mp4"
+          ></video>
         </div>
       </div>
     </div>
@@ -90,7 +94,7 @@
 import IconWrapper from "../components/IconWrapper.vue";
 import SocialMedia from "../components/SocialMedia.vue";
 export default {
-  components: { IconWrapper, SocialMedia },
+  components: { IconWrapper },
   name: "Technologies",
   data() {
     return {
@@ -122,7 +126,9 @@ export default {
 .social-media {
   height: 500px;
   position: relative;
-  background-image: url("../assets/images/dp-edited.jpg");
+  /* background-image: url("../assets/images/dp-edited.jpg"); */
+  /* background-image: url("../assets/images/profile-pic-bg.png"); */
+
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
@@ -135,7 +141,7 @@ export default {
 }
 
 .techno-detail {
-  height: 650px;
+  height: 700px;
 }
 
 .techno__items {
