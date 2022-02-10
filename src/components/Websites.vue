@@ -40,7 +40,7 @@
         <el-carousel-item>
           <div class="item">
             <a
-              href="tify-vue-clone-p8yc7fuxp-monkeydgoku.vercel.app/#/"
+              href="https://spotify-vue-clone-p8yc7fuxp-monkeydgoku.vercel.app/#/"
               target="_blank"
             >
               <ExternalLinkIcon class="site-link"
